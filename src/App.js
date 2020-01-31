@@ -5,6 +5,8 @@ import ChoixThemeVisiteur from "./components/Pages/ChoixThemeVisiteur";
 import SubCategoriesFrame from "./components/Pages/SubCategoriesFrame.js";
 import categories, { getCategory } from "./components/config/categories";
 import CreationForm from "./components/FormulaireCreationProjet/FormulaireCreationProjet";
+import ListeProject from "./components/FormulaireCreationProjet/ListeProject";
+import CreerOuRejoind from "./components/CreerOuRejoind";
 
 const App = props => {
   const subRoutes = () => {
@@ -60,6 +62,12 @@ const App = props => {
           )}
         />
         <Route exact path="/projectform" render={props => <CreationForm />} />
+        <Route exact path="/ListeProject" render={props => <ListeProject />} />
+        <Route
+          exact
+          path="/CreerOuRejoind"
+          render={props => <CreerOuRejoind />}
+        />
         <Route
           exact
           path="/"
