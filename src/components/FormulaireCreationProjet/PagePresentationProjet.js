@@ -23,7 +23,7 @@ const PagePresentationProjet = () => {
     <Container
       component="main"
       maxWidth="xs"
-      style={{ backgroundColor: "#f06a38", height: "180vh" }}
+      style={{ backgroundColor: "#f06a38", height: "200vh" }}
     >
       <CssBaseline />
       <div>
@@ -54,8 +54,10 @@ const PagePresentationProjet = () => {
             marginTop: "40px"
           }}
         >
+          <img src="/img/avatar.png" style={{width:"100px", heigth:"50px", float:"left"}}></img>
           Construction d'une école au Bénin à Dakou
         </Typography>
+        
 
         <form noValidate>
           <Grid container spacing={2}>
@@ -69,6 +71,7 @@ const PagePresentationProjet = () => {
                   textTransform: "uppercase"
                 }}
               >
+                
                 Description de la problématique
               </Typography>
               <TextareaAutosize
@@ -142,7 +145,7 @@ const PagePresentationProjet = () => {
               >
                 Images - vidéos - audios
               </Typography>
-
+<img src="/img/photo1.png" style={{width:"200px", height:"100px"}}></img>
               <Typography
                 component="h1"
                 variant="h5"
@@ -332,7 +335,8 @@ const PagePresentationProjet = () => {
               />
             </Grid>
           </Grid>
-
+<img src="/img/coeur.png" style={{width:"100px", heigth:"50px", float:"left",}}></img>
+<img src="/img/share.png" style={{width:"100px", heigth:"50px"}}></img>
           <Grid container justify="flex-end"></Grid>
         </form>
       </div>
