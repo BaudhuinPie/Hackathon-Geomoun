@@ -24,21 +24,21 @@ const SubCategoriesFrame = ({ subCategories }) => {
         </header>
         <ol className="squares-inside flex-stand">
           <li id="1" key="1">
-            <Link to={`/${subCategories[1]}`}>
+            <Link to="/CreerOuRejoind" >
               {getObjectif(subCategories[1])}
             </Link>
           </li>
-          <li id="2" key="2">
+          <li id="2" key="/CreerOuRejoind">
             <Link to={`/${subCategories[2]}`}>
               {getObjectif(subCategories[2])}
             </Link>
           </li>
-          <li id="3" key="3">
+          <li id="3" key="/CreerOuRejoind">
             <Link to={`/${subCategories[3]}`}>
               {getObjectif(subCategories[3])}
             </Link>
           </li>
-          <li id="4" key="4">
+          <li id="4" key="/CreerOuRejoind">
             <Link to={`/${subCategories[4]}`}>
               {getObjectif(subCategories[4])}
             </Link>
@@ -53,3 +53,4 @@ const SubCategoriesFrame = ({ subCategories }) => {
   );
 };
 export default SubCategoriesFrame;
+//to={`/${subCategories[1]}`}

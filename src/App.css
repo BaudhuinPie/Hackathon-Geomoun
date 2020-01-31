@@ -12,6 +12,13 @@ body {
 .not-visible {
   display: none;
 }
+
+
+button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* no underline */
+}
+
 .nav-bar {
   position: static;
   top: 0px;

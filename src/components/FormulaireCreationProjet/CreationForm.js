@@ -120,7 +120,7 @@ class CreationForm extends Component {
                     fontSize: "20px",
                     color: "white"
                   }}
-                >
+                ><br/>
                   Description de la problématique
                   <Button onClick={this.test} style={{ position: "relative" }}>
                     <div
