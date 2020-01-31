@@ -1,0 +1,124 @@
+.FullPage {
+  background-color: rgb(238, 95, 0);
+}
+
+.AllContent {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.helpTooltip {
+  margin: 1rem;
+  font-size: small;
+  font-style: italic;
+  color: grey;
+}
+
+.CreateProjectTitle {
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: lighter;
+}
+
+.numberOne {
+  display: flex;
+  flex-direction: row;
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: whitesmoke;
+  height: 1.5rem;
+  margin-top: 0.3rem;
+  letter-spacing: normal;
+}
+
+.CreateProjectSubBox {
+  text-align: left;
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: lighter;
+  font-variant: small-caps;
+  letter-spacing: 0.5px;
+}
+
+.CreateProjectSubTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ToolTip {
+  border: solid black 1px;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 50%;
+  height: auto;
+  width: 1.3rem;
+  text-align: center;
+}
+
+.TheActualTip {
+  position: relative;
+  border: solid black 1px;
+  border-radius: 25px 25px 0 25px;
+  background-color: whitesmoke;
+  padding: 8px;
+  font-size: small;
+  font-weight: lighter;
+  font-variant: normal;
+  letter-spacing: 0;
+  color: grey;
+  font-style: italic;
+}
+
+.Invisible {
+  display: none;
+}
+
+.CreateProjectInputForm {
+  display: flex;
+  flex-direction: row;
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: whitesmoke;
+  height: 4rem;
+  margin-top: 0.3rem;
+  letter-spacing: normal;
+}
+
+.CreateProjectOneForm {
+  width: 50%;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+
+.CreateProjectOneForm2 {
+  width: 50%;
+  border-left: solid black 1px;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+
+.CreateProjectOneForm input {
+  width: 100%;
+}
+
+.InputMediaContentButton {
+  border-radius: 25px;
+  background-color: whitesmoke;
+  border: solid black 1px;
+  padding: 10px;
+  margin-top: 4px;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.REMPLISMOI {
+  color: black;
+  width: 99%;
+  font-size: small;
+  font-variant: normal;
+  padding-top: 3px;
+  padding-left: 3px;
+}
