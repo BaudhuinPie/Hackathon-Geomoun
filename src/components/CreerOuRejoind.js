@@ -13,12 +13,13 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
+import { Link } from "react-router-dom";
 
 
 const CreerOuRejoind=() =>{
     
         return (
-            <div>
+            <div style={{padding:"1px"}}> 
                 <AppBar position="static" style={{width:"100vw", backgroundColor:"#672f4e", display:"flex"}}>
         <Toolbar>
         <IconButton edge="start" color="inherit" aria-label="menu">
@@ -31,13 +32,13 @@ const CreerOuRejoind=() =>{
     <div style={{backgroundColor:"#35bfe4",height:"28vh"}}>
     <img src="/img/sdg-06-picto-fr.jpg" style={{with:"200px", height:"200px", marginLeft:"85px"}}></img>
     </div>
-    <Button
+    <Button 
             type="submit"
             fullWidth
             variant="contained" 
             style={{borderRadius:"20px", backgroundColor:"#174a6a", borderRadius:"20px", marginTop:"200px", color:"white"}}
           >
-            Rejoindre un projet
+           <Link to="/ListeProject">Rejoindre un projet</Link> 
             
           </Button>
 
@@ -47,7 +48,7 @@ const CreerOuRejoind=() =>{
             variant="contained" 
             style={{borderRadius:"20px", backgroundColor:"#f06a38", borderRadius:"20px", marginTop:"50px", color:"white"}}
           >
-            Créer un projet
+           <Link to="/projectform">Créer un projet</Link>  
             
           </Button>
             </div>

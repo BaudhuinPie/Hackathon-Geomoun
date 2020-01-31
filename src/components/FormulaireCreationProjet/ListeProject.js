@@ -45,10 +45,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project 1
+            Ramasser Les déchets dans le centre de Bruxelles (exemple)
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         J'ai recemment été faire le un tour à la plage dans le centre de Bruxelles, et J'ai remarqué la quantité toujours incroyable ...  
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -62,10 +62,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project 2
+          Rendez-nous le .bj 
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          une campagne a été lancée en ligne avec pour mot d'ordre « Rendez-nous le .bj ». Le manifeste de la campagne demande à Bénin ...
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -79,10 +79,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Project 3
+            Construction D'une école au Bénin (exemple)
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         Dans le village de Dakou, nous n'avons d'écoles. Nous devons aller dans la maison communale pour apprendre nos leçons , mais ce ... 
           </Typography>
         </CardContent>
       </CardActionArea>
