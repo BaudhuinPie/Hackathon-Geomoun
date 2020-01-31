@@ -7,6 +7,7 @@ import categories, { getCategory } from "./components/config/categories";
 import CreationForm from "./components/FormulaireCreationProjet/CreationForm";
 import ListeProject from "./components/FormulaireCreationProjet/ListeProject";
 import CreerOuRejoind from "./components/CreerOuRejoind";
+import PagePresentationProjet from "./components/FormulaireCreationProjet/PagePresentationProjet";
 
 const App = props => {
   const subRoutes = () => {
@@ -63,6 +64,11 @@ const App = props => {
         />
         <Route exact path="/projectform" render={props => <CreationForm />} />
         <Route exact path="/ListeProject" render={props => <ListeProject />} />
+        <Route
+          exact
+          path="/PagePresentationProjet"
+          render={props => <PagePresentationProjet />}
+        />
         <Route
           exact
           path="/CreerOuRejoind"
