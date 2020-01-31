@@ -28,6 +28,15 @@ const App = props => {
       <Switch>
         {subRoutes()}
         <Route
+          path="/bien-etre"
+          render={props => (
+            <SubCategoriesFrame
+              {...props}
+              subCategories={categories["developpement-economique"]}
+            />
+          )}
+        />
+        <Route
           path="/ethique"
           render={props => (
             <SubCategoriesFrame
@@ -41,7 +50,7 @@ const App = props => {
           render={props => (
             <SubCategoriesFrame
               {...props}
-              subCategories={categories["developpement-economique"]}
+              subCategories={categories["bien-etre"]}
             />
           )}
         />
@@ -54,15 +63,7 @@ const App = props => {
             />
           )}
         />
-        <Route
-          path="/bien-etre"
-          render={props => (
-            <SubCategoriesFrame
-              {...props}
-              subCategories={categories["bien-etre"]}
-            />
-          )}
-        />
+       
         <Route exact path="/projectform" render={props => <CreationForm />} />
         <Route exact path="/ListeProject" render={props => <ListeProject />} />
         <Route
@@ -75,35 +76,6 @@ const App = props => {
           path="/CreerOuRejoind"
           render={props => <CreerOuRejoind />}
         />
-          />
-          <Route
-          path="/2"
-          render={props => (
-            <SubCategoriesFrame
-              {...props}
-              subCategories={categories["bien-etre"]}
-            />
-          )}
-        />
-        <Route
-          path="/3"
-          render={props => (
-            <SubCategoriesFrame
-              {...props}
-              subCategories={categories["bien-etre"]}
-            />
-          )}
-        />
-        <Route
-          path="/4"
-          render={props => (
-            <SubCategoriesFrame
-              {...props}
-              subCategories={categories["bien-etre"]}
-            />
-          )}
-        />
-         
        
 
         <Route

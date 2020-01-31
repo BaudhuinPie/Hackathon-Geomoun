@@ -29,17 +29,17 @@ const SubCategoriesFrame = ({ subCategories }) => {
             </Link>
           </li>
           <li id="2" key="/CreerOuRejoind">
-            <Link to={`/${subCategories[2]}`}>
+            <Link to="/CreerOuRejoind">
               {getObjectif(subCategories[2])}
             </Link>
           </li>
           <li id="3" key="/CreerOuRejoind">
-            <Link to={`/${subCategories[3]}`}>
+            <Link to="/CreerOuRejoind">
               {getObjectif(subCategories[3])}
             </Link>
           </li>
           <li id="4" key="/CreerOuRejoind">
-            <Link to={`/${subCategories[4]}`}>
+            <Link to="/CreerOuRejoind">
               {getObjectif(subCategories[4])}
             </Link>
           </li>
