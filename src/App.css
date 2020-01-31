@@ -81,88 +81,85 @@ ol > li a {
   color: rgb(2, 2, 2);
   text-decoration: none; /* no underline */
 }
-@media screen and (max-width: 850px) {
-  /* GridFour */
-  .grid {
-    /* background-color: lawngreen; */
-    width: 700px;
-    padding: 0px;
-  }
-  .squares-entrance,
-  .squares-inside {
-    list-style: none;
-    /* padding: 40px; */
-    /* background-color: lightgreen; */
-    flex-wrap: wrap;
-    max-height: 200px;
-    width: 700px;
-    padding: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .squares-entrance li {
-    background-color: lightsteelblue;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  .squares-inside li {
-    /* background-color: rgb(25, 103, 206); */
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 20px;
-    overflow: hidden;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: bold;
-  }
-  .squares-inside li {
-    background-color: rgb(25, 103, 206);
-  }
+/* GridFour */
+.grid {
+  /* background-color: lawngreen; */
+  width: 700px;
+  padding: 0px;
 }
-@media screen and (max-width: 440px) {
-  /* GridFour */
-  .grid {
-    /* background-color: lawngreen; */
-    width: 400px;
-    padding: 0px;
-  }
-  .squares-entrance,
-  .squares-inside {
-    list-style: none;
-    /* padding: 40px; */
-    /* background-color: lightgreen; */
-    flex-wrap: wrap;
-    max-height: 360px;
-    width: 400px;
-    padding: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .squares-entrance li,
-  .squares-entrance ol li {
-    /* box-shadow :  5px 5px 2px 6px rgba(29, 29, 29, 0.787); */
-    background-color: lightsteelblue;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-  }
-  .squares-inside li {
-    background-color: rgb(25, 103, 206);
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    padding: 30px;
-    border-radius: 20px;
-    overflow: hidden;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: bold;
-  }
-  .squares-inside li {
-    background-color: rgb(25, 103, 206);
-  }
+.squares-entrance,
+.squares-inside {
+  list-style: none;
+  /* padding: 40px; */
+  /* background-color: lightgreen; */
+  flex-wrap: wrap;
+  max-height: 200px;
+  width: 700px;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.squares-entrance li {
+  background-color: lightsteelblue;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.squares-inside li {
+  /* background-color: rgb(25, 103, 206); */
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(25, 103, 206);
+}
+/* GridFour */
+.grid {
+  /* background-color: lawngreen; */
+  width: 400px;
+  padding: 0px;
+}
+.squares-entrance,
+.squares-inside {
+  list-style: none;
+  /* border: solid red 1px; */
+  /* padding: 40px; */
+  /* background-color: lightgreen; */
+  max-height: 360px;
+  width: 400px;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.squares-entrance li,
+.squares-entrance ol li {
+  /* box-shadow :  5px 5px 2px 6px rgba(29, 29, 29, 0.787); */
+  background-color: lightsteelblue;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+/* .squares-inside li {
+  background-color: rgb(25, 103, 206);
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+} */
+.squares-inside li {
+  background-color: rgb(25, 103, 206);
 }

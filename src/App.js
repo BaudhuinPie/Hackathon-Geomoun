@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import ChoixThemeVisiteur from "./components/Pages/ChoixThemeVisiteur";
 import SubCategoriesFrame from "./components/Pages/SubCategoriesFrame.js";
 import categories, { getCategory } from "./components/config/categories";
-import CreationForm from "./components/FormulaireCreationProjet/FormulaireCreationProjet";
+import CreationForm from "./components/FormulaireCreationProjet/CreationForm";
 import ListeProject from "./components/FormulaireCreationProjet/ListeProject";
 import CreerOuRejoind from "./components/CreerOuRejoind";
 
