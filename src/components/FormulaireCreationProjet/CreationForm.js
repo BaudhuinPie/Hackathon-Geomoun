@@ -48,45 +48,45 @@ class CreationForm extends Component {
             type="submit"
             fullWidth
             variant="contained" 
-            style={{borderRadius:"20px", backgroundColor:"#fac332", borderRadius:"20px", marginTop:"10px"}}
+            style={{borderRadius:"20px", backgroundColor:"#fac332", borderRadius:"20px", marginTop:"5px"}}
           >
             Initiative
             
           </Button>
         <form noValidate>
-            <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white", marginTop:"10px"}}>
-        Titre</Typography>
+            <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white", marginTop:"5px"}}>
+        Titre <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
     />
           <Grid container spacing={2}>
 
             <Grid item xs={12} sm={6}>
             <Typography style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Description de la problématique</Typography>
+            Description de la problématique<Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
 
     />
             </Grid>
             <Grid container spacing={2}></Grid>
             <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Solution au problème</Typography>
+            Solution au problème <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
     />
             </Grid>
             <Grid container spacing={2}></Grid>
             <Grid item xs={12}>
-            <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white", marginBottom:"10px"}}>
-            Images - vidéos - audios</Typography>
+            <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white", marginBottom:"5px"}}>
+            Images - vidéos - audios <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
             <Button
             type="submit"
             variant="contained"
@@ -98,28 +98,30 @@ class CreationForm extends Component {
           
           <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Quel besoin</Typography>
+            Quel besoin <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
     />
             </Grid>
             <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Comment nous aider</Typography>
+            Comment nous aider <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", marginBottom:"10vh", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", marginBottom:"2vh", borderRadius:"20px"}}
     />
             </Grid>
+
+            <hr style={{border:"1px solid white", marginBottom:"10px"}}/>
 
             <Button
             type="submit"
             fullWidth
             variant="contained" 
-            style={{borderRadius:"20px", backgroundColor:"#fac332", borderRadius:"20px", marginTop:"10px"}}
+            style={{borderRadius:"20px", backgroundColor:"#fac332", borderRadius:"20px", marginTop:"5px"}}
           >
             Contact
           </Button>
@@ -127,29 +129,29 @@ class CreationForm extends Component {
             
             <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left" ,fontSize:"20px", color:"white"}}>
-            Evènement<Button onClick={this.shoot}>?</Button></Typography>
+            Evènement<Button style={{position:"relative"}} onClick={this.shoot}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
     />
             </Grid>
             <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Nos contributeurs</Typography>
+            Nos contributeurs <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
     />
             </Grid>
             <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Mon groupe de discution</Typography>
+            Mon groupe de discution <Button style={{position:"relative"}}><div style={{backgroundColor:"white", borderRadius:"50%", width:"2rem"}}>?</div></Button></Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"
-      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"10px"}}
+      style={{width:"90vw", height:"5vh",fontSize:"15px", borderRadius:"20px", marginTop:"5px"}}
     />
             </Grid>
           </Grid>
