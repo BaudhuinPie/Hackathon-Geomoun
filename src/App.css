@@ -1,1 +1,168 @@
-
+body {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.flex-stand {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.not-visible {
+  display: none;
+}
+.nav-bar {
+  position: static;
+  top: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  /* align-items: flex-start; */
+  background-color: rgb(98, 0, 179);
+}
+.phrase-intro {
+  padding: 20px;
+}
+.burger-glyph {
+  background-image: url();
+}
+.burger-menu a {
+  color: rgb(255, 137, 58);
+  text-decoration: none; /* no underline */
+}
+.burger-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  width: 120px;
+  background-color: rgb(98, 0, 179);
+  display: table-cell;
+  /* color: white; */
+}
+.burger-list {
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  overflow-wrap: unset;
+  display: inherit;
+  padding: 0px;
+  /* margin-left: 30px; */
+  width: auto;
+  background-color: thistle;
+}
+.header-entrance {
+  margin: 25px;
+  margin-bottom: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 6px solid rgb(245, 213, 29);
+  border-radius: 0.3rem;
+}
+.header-entrance h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+}
+.title-entrance {
+  text-align: center;
+  background-color: rgb(98, 0, 179);
+  color: white;
+  width: 100%;
+  display: block;
+  padding: 20px;
+}
+ol {
+  list-style: none;
+}
+ol > li a {
+  color: rgb(2, 2, 2);
+  text-decoration: none; /* no underline */
+}
+@media screen and (max-width: 850px) {
+  /* GridFour */
+  .grid {
+    /* background-color: lawngreen; */
+    width: 700px;
+    padding: 0px;
+  }
+  .squares-entrance,
+  .squares-inside {
+    list-style: none;
+    /* padding: 40px; */
+    /* background-color: lightgreen; */
+    flex-wrap: wrap;
+    max-height: 200px;
+    width: 700px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .squares-entrance li {
+    background-color: lightsteelblue;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .squares-inside li {
+    /* background-color: rgb(25, 103, 206); */
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  .squares-inside li {
+    background-color: rgb(25, 103, 206);
+  }
+}
+@media screen and (max-width: 440px) {
+  /* GridFour */
+  .grid {
+    /* background-color: lawngreen; */
+    width: 400px;
+    padding: 0px;
+  }
+  .squares-entrance,
+  .squares-inside {
+    list-style: none;
+    /* padding: 40px; */
+    /* background-color: lightgreen; */
+    flex-wrap: wrap;
+    max-height: 360px;
+    width: 400px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .squares-entrance li,
+  .squares-entrance ol li {
+    /* box-shadow :  5px 5px 2px 6px rgba(29, 29, 29, 0.787); */
+    background-color: lightsteelblue;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  .squares-inside li {
+    background-color: rgb(25, 103, 206);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  .squares-inside li {
+    background-color: rgb(25, 103, 206);
+  }
+}
