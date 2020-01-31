@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import objectifs, { getObjectif } from "../config/objectifs";
+import { getObjectif } from "../config/objectifs";
 
 import imGeo from "../Logos/geomoun.png";
 const SubCategoriesFrame = ({ subCategories }) => {
-  const objectifs = []; //array avec les images de 16 sub avec "" en index zéro.
+  // const objectifs = []; //array avec les images de 16 sub avec "" en index zéro.
   console.log(subCategories);
   return (
     <div className="grid-inside flex-stand">

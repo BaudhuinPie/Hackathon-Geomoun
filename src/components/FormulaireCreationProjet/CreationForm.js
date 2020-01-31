@@ -145,7 +145,7 @@ class CreationForm extends Component {
             </Grid>
             <Grid item xs={12}>
             <Typography component="h1" variant="h5" style={{textAlign:"left",fontSize:"20px", color:"white"}}>
-            Mon groupe de discution</Typography>
+            Mon groupe de discussion</Typography>
         <TextareaAutosize
       rowsMax={4}
       aria-label="maximum height"

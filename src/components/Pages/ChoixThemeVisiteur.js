@@ -15,13 +15,13 @@ export default class ChoixThemeVisiteur extends React.Component {
   };
   render() {
     return (
-      <div className="main-screen flex-stand">
+      <div className="mainScreen">
         <div className="nav-bar" onClick={this.toggleDisplay}>
           <img
             className="logo-corner-up"
             src={imGeo}
             alt="logo platform"
-            height="50px"
+            height="60px"
             width="auto"
           />
           {/* <NavDropdownExample/> */}
@@ -32,10 +32,6 @@ export default class ChoixThemeVisiteur extends React.Component {
         <div className="grid-entrance">
           <GridFour items={this.categories} />
         </div>
-        <footer className="title-entrance flex-stand">
-          <h2 className="title-intro">World Wide Youth</h2>
-          <p className="slogan">Par les jeunes pour les jeunes</p>
-        </footer>
       </div>
     );
   }

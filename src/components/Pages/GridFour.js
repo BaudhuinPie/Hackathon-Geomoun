@@ -5,7 +5,7 @@ const GridFour = ({ items }) => {
   console.log(items);
   return (
     <main className="grid flex-stand">
-      <ol className="squares-entrance flex-stand">
+      <ol className="squares-entrance">
         <li id="1" key="1">
           <Link to="/bien-etre">{items["bien-etre"][0][0]}</Link>
         </li>
