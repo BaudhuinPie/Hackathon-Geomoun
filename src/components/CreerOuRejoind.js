@@ -28,7 +28,7 @@ const CreerOuRejoind=() =>{
         </Toolbar>
     </AppBar>
 
-    <div style={{backgroundColor:"#35bfe4",height:"25vh"}}>
+    <div style={{backgroundColor:"#35bfe4",height:"28vh"}}>
     <img src="/img/sdg-06-picto-fr.jpg" style={{with:"200px", height:"200px", marginLeft:"85px"}}></img>
     </div>
     <Button

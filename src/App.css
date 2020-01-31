@@ -12,6 +12,37 @@ body {
 .not-visible {
   display: none;
 }
+
+
+.shortPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 5;
+}
+.shortPage img {
+  
+  width:auto;
+  height:85vh;
+  z-index: 5;
+  
+}
+.ButtunUp {
+  display: inline-block;
+  background-color: rgb(255, 0, 212) ;
+  width: 50px ;
+  height: 50px;
+  z-index: 1000;
+}
+
+.ButtunOb {
+  display: inline-block;
+  background-color: rgb(17, 0, 255) ;
+  width: 50px ;
+  height: 50px;
+  z-index: 1000;
+}
+
 .nav-bar {
   position: static;
   top: 0px;

@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route,Link } from "react-router-dom";
 import ChoixThemeVisiteur from "./components/Pages/ChoixThemeVisiteur";
 import SubCategoriesFrame from "./components/Pages/SubCategoriesFrame.js";
 import categories, { getCategory } from "./components/config/categories";
 import CreationForm from "./components/FormulaireCreationProjet/CreationForm";
 import ListeProject from "./components/FormulaireCreationProjet/ListeProject";
 import CreerOuRejoind from "./components/CreerOuRejoind";
+import inCome from "./components/Logos/joinOrLogUp.png";
 
 const App = props => {
   const subRoutes = () => {
@@ -68,6 +69,41 @@ const App = props => {
           path="/CreerOuRejoind"
           render={props => <CreerOuRejoind />}
         />
+         <Route
+          path="/1"
+          render={props => (
+          )}
+          />
+          <Route
+          path="/2"
+          render={props => (
+            <SubCategoriesFrame
+              {...props}
+              subCategories={categories["bien-etre"]}
+            />
+          )}
+        />
+        <Route
+          path="/3"
+          render={props => (
+            <SubCategoriesFrame
+              {...props}
+              subCategories={categories["bien-etre"]}
+            />
+          )}
+        />
+        <Route
+          path="/4"
+          render={props => (
+            <SubCategoriesFrame
+              {...props}
+              subCategories={categories["bien-etre"]}
+            />
+          )}
+        />
+         
+       
+
         <Route
           exact
           path="/"
