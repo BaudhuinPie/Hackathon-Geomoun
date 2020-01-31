@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-// import FormulaireCreationProjet from "./components/FormulaireCreationProjet/FormulaireCreationProjet";
 import ChoixThemeVisiteur from "./components/Pages/ChoixThemeVisiteur";
 import SubCategoriesFrame from "./components/Pages/SubCategoriesFrame.js";
 import categories, { getCategory } from "./components/config/categories";
+import CreationForm from "./components/FormulaireCreationProjet/FormulaireCreationProjet";
 
 const App = props => {
   const subRoutes = () => {
@@ -21,10 +21,7 @@ const App = props => {
   };
   return (
     <div className="App">
-      {/* <FormulaireCreationProjet /> */}
-      {/* <ChoixThemeVisiteur/> */}
       <Switch>
-        {/* <Route path={`/${theme}/create-form`} component={FormulaireCreationProjet} /> */}
         {subRoutes()}
         <Route
           path="/ethique"
@@ -62,6 +59,7 @@ const App = props => {
             />
           )}
         />
+        <Route exact path="/projectform" render={props => <CreationForm />} />
         <Route
           exact
           path="/"

@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import "./FormulaireCreationProjet.css";
 
@@ -35,7 +36,7 @@ export class FormulaireCreationProjet extends Component {
                 raconter une petite histoire qui présente qui tu es, de ce qu’il
                 se passe et pourquoi tu te sens concerné(e). Ne t’étends pas
                 trop sur les solutions pour le moment, tu pourras faire ça dans
-                la case « Solution au problème ».
+                la case « Solution au problème ».
               </p>
             </div>
             <div className="CreateProjectInputForm">
